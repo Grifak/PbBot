@@ -1,0 +1,29 @@
+package com.example.tgbot.enums;
+
+public enum BotState {
+    HELLO,
+    MAIN_MENU,
+    HELP_MENU,
+    LIFE_HACKS,
+    LIFE_HACKS_1,
+    LIFE_HACKS_2,
+    LIFE_HACKS_3,
+    LIFE_HACKS_4,
+    LIFE_HACKS_5,
+    LIFE_HACKS_6,
+    DOCUMENTS,
+    DOC_MAT_HELP,
+    DOC_GSS,
+    PLACES,
+    FOOD_PLACES,
+    FOOD_300,
+    FOOD_500,
+    FOOD_1000,
+    ENTERTAINMENTS_PLACES,
+    ENTERTAINMENTS_500,
+    ENTERTAINMENTS_1000,
+    SPORT,
+    ANOTHER_ACTIVITIES,
+    STUDIOS,
+    PROF
+}
