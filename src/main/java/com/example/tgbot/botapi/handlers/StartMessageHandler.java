@@ -20,7 +20,7 @@ public class StartMessageHandler implements InputMessageHandler {
         Long userId = message.getFrom().getId();
         Long chatId = message.getChatId();
 
-        BotApiMethod<?> callBackAnswer = mainMenuService.getMainMenuMessage(chatId, ReplyMessage.MAIN_MENU.getName());
+        BotApiMethod<?> callBackAnswer = mainMenuService.getMainMenuMessage(chatId, ReplyMessage.HELP.getName());
         userDataCache.setUsersCurrentBotState(userId, BotState.MAIN_MENU);
 
         return callBackAnswer;
