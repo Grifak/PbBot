@@ -41,11 +41,11 @@ public class DocumentsHandler implements InputMessageHandler {
         InlineKeyboardMarkup inlineKeyboardMarkup = new InlineKeyboardMarkup();
 
         InlineKeyboardButton food = InlineKeyboardButton.builder()
-                .text("Материальная помощь")
+                .text("Мат помощь")
                 .callbackData("MatHelp")
                 .build();
         InlineKeyboardButton entertainments = InlineKeyboardButton.builder()
-                .text("Социальная стипендия")
+                .text("Соц стипендия")
                 .callbackData("GSS")
                 .build();
 

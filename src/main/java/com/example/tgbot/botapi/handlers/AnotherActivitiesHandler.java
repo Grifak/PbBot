@@ -45,7 +45,7 @@ public class AnotherActivitiesHandler implements InputMessageHandler {
                 .callbackData("Studios")
                 .build();
         InlineKeyboardButton prof = InlineKeyboardButton.builder()
-                .text("Мероприятия профсоюза")
+                .text("Профсоюз")
                 .callbackData("PROF")
                 .build();
 
